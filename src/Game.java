@@ -86,6 +86,8 @@ public class Game extends JFrame implements Runnable, KeyListener {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+
+
                 int score = apple.getScore();
                 int option;
                 /*
